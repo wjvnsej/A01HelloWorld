@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hello World"
+        android:textSize="50sp" />
+
+    <Button
+        android:id="@+id/btnNate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#ff0000"
+        android:text="네이트 바로가기" />
+
+    <EditText
+        android:id="@+id/editText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="전화번호를 입력하세요"
+        android:inputType="textPersonName"
+        android:textColorHint="#39AFFA" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="전화걸기"
+        android:id="@+id/btnCall"
+        android:background="@drawable/ic_jog_dial_answer"/>
+
+    <Button
+        android:id="@+id/btnNext"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="화면전환"
+        android:textSize="20sp"
+        android:padding="30sp"/>
+
+    <Button
+        android:id="@+id/myBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="myBtnClick"
+        android:padding="30sp"
+        android:text="onclick 속성을 이용한 버튼"
+        android:textSize="20sp" />
+
+</LinearLayout>
